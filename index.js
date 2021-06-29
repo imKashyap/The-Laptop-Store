@@ -56,8 +56,8 @@ const server = http.createServer((req, res) => {
     
 });
 
-server.listen(1337, '127.0.0.1', () => {
-    console.log('Listening for requests now');
+server.listen(process.env.PORT || 3000, '127.0.0.1', () => {
+    console.log('Listening on http://localhost:3000/');
 });
 
 function replaceTemplate(originalHtml, laptop) {

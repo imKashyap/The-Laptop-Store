@@ -1,0 +1,23 @@
+{
+  "name": "laptop-store",
+  "version": "1.0.0",
+  "description": "A Laptop Store",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imKashyap/The-Laptop-Store.git"
+  },
+  "keywords": [
+    "node",
+    "heroku"
+  ],
+  "author": "Rahul Kashyap",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imKashyap/The-Laptop-Store/issues"
+  },
+  "homepage": "https://github.com/imKashyap/The-Laptop-Store#readme"
+}
